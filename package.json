@@ -1,7 +1,7 @@
 {
   "name": "@cynosure-mcp/weather",
   "mcpName": "io.github.andreasjhagen/weather",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server that fetches current weather and forecasts using the free Open-Meteo API",
   "type": "module",
   "main": "dist/index.js",
