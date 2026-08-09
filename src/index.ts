@@ -200,6 +200,7 @@ const server = new McpServer({
 server.registerTool(
     'get_current_weather',
     {
+        annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: true },
         description: 'Get current weather conditions for a location. Provide a place name or lat/lon. ' +
             'Supply country_code (e.g. "AT") to avoid geocoding the wrong city.',
         inputSchema: locationSchema,
@@ -256,6 +257,7 @@ server.registerTool(
 server.registerTool(
     'get_weather_forecast',
     {
+        annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: true },
         description: 'Get a daily weather forecast (up to 16 days) for a location. ' +
             'Returns high/low temperatures, precipitation probability, wind, UV index, and sunrise/sunset times.',
         inputSchema: {
@@ -325,6 +327,7 @@ server.registerTool(
 server.registerTool(
     'get_hourly_forecast',
     {
+        annotations: { readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: true },
         description: 'Get a detailed hour-by-hour forecast for today (in the location\'s local timezone). ' +
             'Returns temperature, feels-like, precipitation, wind, humidity, visibility, and cloud cover.',
         inputSchema: locationSchema,
