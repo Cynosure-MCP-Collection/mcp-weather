@@ -192,7 +192,7 @@ const server = new McpServer({
     version: '2.0.0',
     title: 'Weather Fetcher',
     description: 'Fetch current weather and forecasts using the free Open-Meteo API.',
-    icons: [{ src: 'https://raw.githubusercontent.com/andreasjhagen/Cynosure-MCPs/main/mcp-weather/icon.png', mimeType: 'image/png' }],
+    icons: [{ src: 'https://unpkg.com/@cynosure-mcp/weather@1.0.4/icon.png', mimeType: 'image/png' }],
 });
 
 // ── Tool: get_current_weather ──────────────────────────────────────────────────
