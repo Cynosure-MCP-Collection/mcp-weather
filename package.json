@@ -37,5 +37,13 @@
     "forecast",
     "open-meteo",
     "ai"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cynosure-MCP-Collection/mcp-weather.git"
+  },
+  "homepage": "https://github.com/Cynosure-MCP-Collection/mcp-weather#readme",
+  "bugs": {
+    "url": "https://github.com/Cynosure-MCP-Collection/mcp-weather/issues"
+  }
 }
